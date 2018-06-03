@@ -1,0 +1,33 @@
+{
+  "name": "gsap-treeshaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gsapAll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist/",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSUblake/gsap-treeshaking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OSUblake/gsap-treeshaking/issues"
+  },
+  "homepage": "https://github.com/OSUblake/gsap-treeshaking#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "rimraf": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.9.1",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "gsap": "^2.0.1"
+  }
+}
